@@ -1,0 +1,676 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Matemático Kids | Pratique de Forma Simples</title>
+    <meta name="description" content="Um conjunto de atividades prontas e organizadas para auxiliar crianças na prática da matemática. Adição, subtração, tabuada, frações e mais.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1967454957136241');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img loading="lazy" height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1967454957136241&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body>
+
+    <!-- 01 - HEADER / URGENCY BANNER -->
+    <header style="background-color: #6D2932; padding: 12px 0; text-align: center; border-bottom: 1px solid #561C24;">
+        <div class="container">
+            <div style="font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; color: #E8D8C4; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                <span>Essa oferta vai se encerrar no dia <span id="urgency-date">25/09/2026</span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 02 - HERO / PRIMEIRA DOBRA -->
+    <section class="hero section-padding">
+        <div class="container">
+            <div class="hero-rating" style="display: flex; justify-content: center; margin-bottom: 24px;">
+                <div style="display: inline-flex; align-items: center; gap: 12px; background: white; padding: 6px 16px; border-radius: 50px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="display: flex; gap: 4px; color: #F59E0B;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <div style="width: 1px; height: 16px; background-color: #e5e5e5;"></div>
+                    <span style="font-family: 'Inter', sans-serif; font-weight: 700; font-size: 14px; color: #111;">+1.456 alunos</span>
+                </div>
+            </div>
+            <h1 class="headline" style="font-family: 'Poppins', sans-serif; font-weight: 800; line-height: 1.4;"><mark style="background-color: #E8D8C4; color: #561C24; padding: 4px 12px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); display: inline-block; margin-bottom: 8px;">Um kit completo</mark><br> para transformar a prática da matemática em uma atividade mais simples e organizada.</h1>
+            <p class="subheadline" style="font-family: 'Poppins', sans-serif; font-size: 18px; margin-top: 16px;">Tenha acesso a um <strong style="color: #561C24; font-weight: 700;">conjunto de atividades variadas e materiais complementares</strong>, desenvolvidos para <strong style="color: #561C24; font-weight: 700;">facilitar a rotina</strong> de pais e professores na hora de <strong style="color: #561C24; font-weight: 700;">ensinar matemática</strong> para as crianças.</p>
+            
+            <img src="img/mockup-premium.jpg" class="hero-image" style="width: 100%; height: auto; max-width: 600px; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 12px; margin: 32px auto; display: block;" alt="Mockup completo do Kit Matemática Inteligente">
+
+            <a href="#oferta" class="cta-button premium-btn checkout-link" style="max-width: 400px; margin-left: auto; margin-right: auto;">QUERO GARANTIR MEU KIT</a>
+            
+            <div style="text-align: center; margin-top: 12px; font-family: 'Inter', sans-serif; font-size: 14px; color: #444; font-weight: 600;">
+                <span style="color: #F59E0B; letter-spacing: 2px;">★★★★★</span> +1.456 alunos
+            </div>
+            
+            <div style="display: flex; justify-content: center; width: 100%; margin-top: 16px;">
+                <div class="secure-badge" style="margin-top: 0; margin-bottom: 0;">
+                    🔒 COMPRA 100% SEGURA E PROTEGIDA
+                </div>
+            </div>
+
+            <div class="security-info" style="margin-top: 12px; margin-bottom: 0;">
+                <span>Pagamento único</span> &bull; <span>Acesso vitalício</span> &bull; <span>Envio digital</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 03 - GALERIA / AMOSTRA (Movido) -->
+    <section class="gallery section-padding bg-light">
+        <div class="container relative">
+            <h2 class="section-title">Veja alguns dos materiais que fazem parte do kit</h2>
+            
+            <div class="carousel-wrapper">
+                <div class="carousel-track">
+                    <img loading="lazy" src="img/amostra1.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 1">
+                    <img loading="lazy" src="img/amostra2.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 2">
+                    <img loading="lazy" src="img/amostra3.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 3">
+                    <img loading="lazy" src="img/amostra4.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 4">
+                    <img loading="lazy" src="img/amostra5.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 5">
+                    <img loading="lazy" src="img/amostra6.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 6">
+                    <img loading="lazy" src="img/amostra7.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 7">
+                    <img loading="lazy" src="img/amostra8.png" class="gallery-item" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="openModal(this)" alt="Amostra 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 03.5 - PARA QUEM É -->
+    <section class="ideal-for section-padding" style="background-color: #FAFAFA;">
+        <div class="container text-center">
+            <p style="color: #561C24; font-weight: 800; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">PARA QUEM É?</p>
+            <h2 class="ideal-title" style="color: #111; font-weight: 800; font-size: 32px; margin-bottom: 12px; font-family: 'Poppins', sans-serif;">Para quem foi feito este material?</h2>
+            <p style="color: #666; font-size: 16px; margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto;">Um guia visual projetado para ajudar estudantes, pais e professores em qualquer fase de aprendizado.</p>
+            
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
+                
+                <!-- Card 1 -->
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 16px; padding: 32px 24px; width: 100%; max-width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <div style="width: 64px; height: 64px; background-color: #E8D8C4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px auto; font-size: 28px;">
+                        🏡
+                    </div>
+                    <h3 style="color: #111; font-weight: 800; font-size: 18px; margin-bottom: 12px; line-height: 1.3;">Para quem estuda em casa</h3>
+                    <p style="color: #555; font-size: 14px; line-height: 1.6;">Precisa de atividades para complementar os estudos da criança em casa, reforçando o aprendizado.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 16px; padding: 32px 24px; width: 100%; max-width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <div style="width: 64px; height: 64px; background-color: #E8D8C4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px auto; font-size: 28px;">
+                        🚀
+                    </div>
+                    <h3 style="color: #111; font-weight: 800; font-size: 18px; margin-bottom: 12px; line-height: 1.3;">Para quem quer praticidade</h3>
+                    <p style="color: #555; font-size: 14px; line-height: 1.6;">Quer ter materiais prontos para utilizar imediatamente sem precisar criar atividades do zero.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 16px; padding: 32px 24px; width: 100%; max-width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <div style="width: 64px; height: 64px; background-color: #E8D8C4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px auto; font-size: 28px;">
+                        📚
+                    </div>
+                    <h3 style="color: #111; font-weight: 800; font-size: 18px; margin-bottom: 12px; line-height: 1.3;">Para conteúdo completo</h3>
+                    <p style="color: #555; font-size: 14px; line-height: 1.6;">Procura atividades variadas para diferentes áreas: operações básicas, medidas, frações e mais.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 16px; padding: 32px 24px; width: 100%; max-width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <div style="width: 64px; height: 64px; background-color: #E8D8C4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px auto; font-size: 28px;">
+                        🗂️
+                    </div>
+                    <h3 style="color: #111; font-weight: 800; font-size: 18px; margin-bottom: 12px; line-height: 1.3;">Para quem ama organização</h3>
+                    <p style="color: #555; font-size: 14px; line-height: 1.6;">Quer reunir vários materiais fundamentais em um único lugar de forma categorizada e estruturada.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div style="background: white; border: 1px solid #eaeaea; border-radius: 16px; padding: 32px 24px; width: 100%; max-width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <div style="width: 64px; height: 64px; background-color: #E8D8C4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px auto; font-size: 28px;">
+                        👩‍🏫
+                    </div>
+                    <h3 style="color: #111; font-weight: 800; font-size: 18px; margin-bottom: 12px; line-height: 1.3;">Para educadores em geral</h3>
+                    <p style="color: #555; font-size: 14px; line-height: 1.6;">Ideal para pais, mães, responsáveis ou professores que buscam opções viáveis para praticar matemática.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 04 - FEEDBACK DAS CLIENTES -->
+    <section class="testimonials section-padding" style="background-color: #F8F9FA;">
+        <div class="container text-center">
+            <h2 class="section-title" style="color: #333; margin-bottom: 8px;">Confira o feedback espontâneo de alunos</h2>
+            <p style="color: #666; font-size: 16px; margin-bottom: 40px;">Veja como o material tem ajudado na prática.</p>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial-track" id="testimonial-track">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card" style="flex: 0 0 320px; scroll-snap-align: start; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; overflow: hidden;">
+                    <img loading="lazy" src="img/testimonial_img_1.jpg" alt="Tablet com exercícios" style="width: 100%; height: 280px; object-fit: cover;">
+                    <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <div style="color: #F59E0B; margin-bottom: 12px; font-size: 14px;">★★★★★</div>
+                        <p style="color: #444; font-size: 15px; font-style: italic; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">"Não imprimi nada e mesmo assim meu filho está utilizando normalmente pelo tablet. Os mapas ficaram perfeitos e ele consegue estudar em qualquer lugar."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img loading="lazy" src="https://i.pravatar.cc/100?img=1" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <div>
+                                <h4 style="color: #111; font-size: 14px; font-weight: 700; margin: 0;">Carolina M.</h4>
+                                <p style="color: #888; font-size: 12px; margin: 0;">Mãe de aluno</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card" style="flex: 0 0 320px; scroll-snap-align: start; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; overflow: hidden;">
+                    <img loading="lazy" src="img/testimonial_img_2.jpg" alt="Atividades coladas na parede" style="width: 100%; height: 280px; object-fit: cover;">
+                    <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <div style="color: #F59E0B; margin-bottom: 12px; font-size: 14px;">★★★★★</div>
+                        <p style="color: #444; font-size: 15px; font-style: italic; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">"Fiz um cantinho de estudos e colei as atividades na parede. Tem sido ótimo porque ele visualiza os problemas matemáticos todo dia e aprende muito mais rápido."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img loading="lazy" src="https://i.pravatar.cc/100?img=9" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <div>
+                                <h4 style="color: #111; font-size: 14px; font-weight: 700; margin: 0;">Patrícia M.</h4>
+                                <p style="color: #888; font-size: 12px; margin: 0;">Aluna do Kit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card" style="flex: 0 0 320px; scroll-snap-align: start; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; overflow: hidden;">
+                    <img loading="lazy" src="img/testimonial_img_3.jpg" alt="Crianças estudando matemática" style="width: 100%; height: 280px; object-fit: cover;">
+                    <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <div style="color: #F59E0B; margin-bottom: 12px; font-size: 14px;">★★★★★</div>
+                        <p style="color: #444; font-size: 15px; font-style: italic; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">"Sou professora e esse kit economizou muito meu tempo. Uso as atividades para explicar e revisar os conteúdos de forma mais visual com meus alunos em sala."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img loading="lazy" src="https://i.pravatar.cc/100?img=5" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <div>
+                                <h4 style="color: #111; font-size: 14px; font-weight: 700; margin: 0;">Fernanda R.</h4>
+                                <p style="color: #888; font-size: 12px; margin: 0;">Professora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card" style="flex: 0 0 320px; scroll-snap-align: start; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; overflow: hidden;">
+                    <img loading="lazy" src="img/testimonial_img_4.jpg.webp" alt="Menino sorrindo com atividade de matemática" style="width: 100%; height: 280px; object-fit: cover;">
+                    <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <div style="color: #F59E0B; margin-bottom: 12px; font-size: 14px;">★★★★★</div>
+                        <p style="color: #444; font-size: 15px; font-style: italic; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">"Meu filho que tinha muita resistência com números agora pede para fazer as tarefinhas! O visual colorido e interativo fez toda a diferença no aprendizado."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img loading="lazy" src="https://i.pravatar.cc/100?img=33" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <div>
+                                <h4 style="color: #111; font-size: 14px; font-weight: 700; margin: 0;">Roberto C.</h4>
+                                <p style="color: #888; font-size: 12px; margin: 0;">Pai de aluno</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card" style="flex: 0 0 320px; scroll-snap-align: start; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; overflow: hidden;">
+                    <img loading="lazy" src="img/testimonial_img_5.jpg" alt="Fichário com atividades de matemática na mesa" style="width: 100%; height: 280px; object-fit: cover;">
+                    <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+                        <div style="color: #F59E0B; margin-bottom: 12px; font-size: 14px;">★★★★★</div>
+                        <p style="color: #444; font-size: 15px; font-style: italic; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">"Imprimi tudo e organizei em um fichário. Ficou parecendo um livro didático premium, só que muito mais barato. As crianças amam a diversidade das folhas."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img loading="lazy" src="https://i.pravatar.cc/100?img=42" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <div>
+                                <h4 style="color: #111; font-size: 14px; font-weight: 700; margin: 0;">Juliana S.</h4>
+                                <p style="color: #888; font-size: 12px; margin: 0;">Mãe e Educadora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 06 - O QUE ESTÁ INCLUSO -->
+    <section class="included section-padding">
+        <div class="container">
+            <h2 class="section-title">Tudo isso dentro de um único kit</h2>
+            
+            <div class="offer-card premium-card">
+                <div class="premium-badge">O QUE VOCÊ VAI RECEBER</div>
+                
+                <p class="offer-subtitle">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> TODOS OS MATERIAIS INCLUSOS
+                </p>
+
+                <img loading="lazy" src="img/hero-mockup.jpg" class="offer-image" style="height: auto; max-height: 400px; object-fit: contain; width: 100%; padding: 0 16px;" alt="Kit Matemática Inteligente">
+
+                <ul class="offer-list">
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Matemática 4 Operações — 1º ao 5º ano Editável</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unidades de Medida — 1º ao 5º ano Editável</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mural da Tabuada</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Uno das 4 Operações</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Frações</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Acesso vitalício ao conteúdo</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Envio imediato por e-mail (em PDF)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 08 - VALOR PERCEBIDO -->
+    <section class="value-perception section-padding">
+        <div class="container">
+            <h2 class="section-title">Por que garantir o Kit Matemática Inteligente?</h2>
+            
+            <p class="pitch-text">
+                “Entre a rotina de casa, trabalho, filhos e outras responsabilidades, encontrar tempo para preparar atividades educativas pode ser um desafio tanto para mães quanto para professoras.”
+            </p>
+
+            <div class="pitch-image-container" style="display: flex; justify-content: center;">
+                <img loading="lazy" src="img/kids-playing.jpg" class="pitch-image" style="object-fit: cover;" alt="Crianças aprendendo com Kit Matemática">
+            </div>
+        </div>
+    </section>
+
+    <div class="promo-banner">APROVEITE O PREÇO PROMOCIONAL</div>
+    
+
+
+    <!-- 09 - BÔNUS PREMIUM -->
+    <section class="bonuses section-padding" style="background-color: #F8F9FA;">
+        <div class="container">
+            <h2 class="section-title text-center" style="color: #6D2932; margin-bottom: 40px;">Receba também 4 Bônus Exclusivos de Graça!</h2>
+            <div class="bonus-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px;">
+                
+                <div class="bonus-card" style="background: white; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #10B981;">
+                    <img loading="lazy" src="img/fracoes.jpg" alt="Frações" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 16px;">
+                    <h3 style="font-size: 18px; color: #111; margin-bottom: 8px;">Atividades de Frações</h3>
+                    <p style="text-decoration: line-through; color: #E53E3E; font-size: 18px; font-weight: 600; margin-bottom: 4px;">De R$ 37,90</p>
+                    <p style="color: #10B981; font-weight: 900; font-size: 24px;">GR&Aacute;TIS!</p>
+                </div>
+
+                <div class="bonus-card" style="background: white; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #10B981;">
+                    <img loading="lazy" src="img/mural_tabuada.jpg" alt="Mural da Tabuada" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 16px;">
+                    <h3 style="font-size: 18px; color: #111; margin-bottom: 8px;">Mural da Tabuada</h3>
+                    <p style="text-decoration: line-through; color: #E53E3E; font-size: 18px; font-weight: 600; margin-bottom: 4px;">De R$ 29,90</p>
+                    <p style="color: #10B981; font-weight: 900; font-size: 24px;">GR&Aacute;TIS!</p>
+                </div>
+
+                <div class="bonus-card" style="background: white; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #10B981;">
+                    <img loading="lazy" src="img/unidade_medida.jpg" alt="Unidade de Medida" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 16px;">
+                    <h3 style="font-size: 18px; color: #111; margin-bottom: 8px;">Unidades de Medida</h3>
+                    <p style="text-decoration: line-through; color: #E53E3E; font-size: 18px; font-weight: 600; margin-bottom: 4px;">De R$ 34,90</p>
+                    <p style="color: #10B981; font-weight: 900; font-size: 24px;">GR&Aacute;TIS!</p>
+                </div>
+
+                <div class="bonus-card" style="background: white; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #10B981;">
+                    <img loading="lazy" src="img/uno_operacoes.jpg" alt="Uno das 4 Operações" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 16px;">
+                    <h3 style="font-size: 18px; color: #111; margin-bottom: 8px;">Uno das 4 Operações</h3>
+                    <p style="text-decoration: line-through; color: #E53E3E; font-size: 18px; font-weight: 600; margin-bottom: 4px;">De R$ 47,90</p>
+                    <p style="color: #10B981; font-weight: 900; font-size: 24px;">GR&Aacute;TIS!</p>
+                </div>
+
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 18px; color: #333; margin-bottom: 16px;">Comprando separadamente, tudo isso custaria <strong>R$ 150,60</strong>. Mas levando o plano hoje eles são 100% gratuitos!</p>
+                <a href="#oferta" class="cta-button premium-btn checkout-link" style="max-width: 400px; margin-left: auto; margin-right: auto;">QUERO MEU KIT COM BÔNUS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10 - OFERTA PRINCIPAL -->
+    <section id="oferta" class="offer section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">ESCOLHA A MELHOR OPÇÃO PARA VOCÊ</h2>
+            
+            <div class="offers-grid">
+                <!-- PLANO BÁSICO -->
+                <div class="offer-card basic-card">
+                    <h3 class="basic-title">PLANO BÁSICO</h3>
+                    
+                    <ul class="offer-list">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Matemática 4 Operações 1º ao 5º Ano (Em PDF)</li>
+                    </ul>
+
+                    <p class="basic-subtitle">Clique no botão abaixo e garanta já o seu!</p>
+
+                    <div class="pricing">
+                        <span class="price-old">De R$ 45,90</span>
+                        <span class="price-current" style="color: #22C55E; text-shadow: none;">R$11,90</span>
+                        <span class="price-label">Pagamento Único</span>
+                    </div>
+
+                    <a href="https://pay.kiwify.com.br/IyoztT6" target="_blank" class="cta-button basic-btn">QUERO ESSA OPÇÃO!</a>
+                    
+                    <div class="basic-banner">
+                        <p class="banner-red">AINDA DÁ TEMPO DE LEVAR A MELHOR OPÇÃO!</p>
+                        <p class="banner-white">Leve o Premium com desconto</p>
+                    </div>
+                </div>
+
+                <!-- PLANO PREMIUM -->
+                <div class="offer-card premium-card">
+                <div class="bestseller-badge">★ MAIS VENDIDO</div>
+                <div class="premium-badge">PLANO PREMIUM</div>
+                
+                <p class="offer-subtitle">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> TODOS OS MATERIAIS INCLUSOS
+                </p>
+
+                <img loading="lazy" src="img/hero-mockup.jpg" class="offer-image" style="height: auto; max-height: 400px; object-fit: contain; width: 100%; padding: 0 16px;" alt="Mockup do Kit Matemática Inteligente Premium">
+
+                <ul class="offer-list">
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Matemática 4 Operações — 1º ao 5º ano Editável</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unidades de Medida — 1º ao 5º ano Editável</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mural da Tabuada</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Uno das 4 Operações</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Frações</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Acesso vitalício ao conteúdo</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Envio imediato por e-mail (em PDF)</li>
+                    <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Clique no botão abaixo e garanta já o seu!</li>
+                </ul>
+
+                <div class="pricing">
+                    <span class="price-old">Valor Total R$ 97,00</span>
+                    <span class="price-label">à vista</span>
+                    <span class="price-current">R$27,90</span>
+                    <span class="price-installment">ou em até 6x de R$ 5,08 no cartão</span>
+                </div>
+
+                <a href="https://pay.kiwify.com.br/LzZIk3g" target="_blank" class="cta-button checkout-link premium-btn">QUERO GARANTIR MEU ACESSO</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11 & 12 - CONFIANÇA / REDUÇÃO DE RISCO -->
+    <section class="trust section-padding" style="background-color: #FAFAFA;">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                
+                <!-- Trust 1 -->
+                <div style="flex: 1 1 200px; max-width: 250px; background-color: #E8D8C4; border-radius: 16px; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid rgba(86,28,36,0.1); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <div style="background: white; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#561C24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <span style="color: #561C24; font-weight: 800; font-size: 15px; margin-bottom: 6px;">Pagamento Seguro</span>
+                    <span style="color: #555; font-size: 13px; line-height: 1.4;">Ambiente 100% protegido e criptografado.</span>
+                </div>
+
+                <!-- Trust 2 -->
+                <div style="flex: 1 1 200px; max-width: 250px; background-color: #E8D8C4; border-radius: 16px; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid rgba(86,28,36,0.1); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <div style="background: white; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#561C24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <span style="color: #561C24; font-weight: 800; font-size: 15px; margin-bottom: 6px;">Produto Digital</span>
+                    <span style="color: #555; font-size: 13px; line-height: 1.4;">Formato em PDF prático, pronto para usar.</span>
+                </div>
+
+                <!-- Trust 3 -->
+                <div style="flex: 1 1 200px; max-width: 250px; background-color: #E8D8C4; border-radius: 16px; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid rgba(86,28,36,0.1); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <div style="background: white; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#561C24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <span style="color: #561C24; font-weight: 800; font-size: 15px; margin-bottom: 6px;">Acesso Vitalício</span>
+                    <span style="color: #555; font-size: 13px; line-height: 1.4;">Pague uma vez e tenha acesso para sempre.</span>
+                </div>
+
+                <!-- Trust 4 -->
+                <div style="flex: 1 1 200px; max-width: 250px; background-color: #E8D8C4; border-radius: 16px; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid rgba(86,28,36,0.1); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <div style="background: white; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#561C24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <span style="color: #561C24; font-weight: 800; font-size: 15px; margin-bottom: 6px;">Envio Imediato</span>
+                    <span style="color: #555; font-size: 13px; line-height: 1.4;">Receba no e-mail logo após a confirmação.</span>
+                </div>
+
+                <!-- Trust 5 (Garantia) -->
+                <div style="flex: 1 1 200px; max-width: 250px; background-color: #D1FAE5; border-radius: 16px; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid rgba(16, 185, 129, 0.2); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <div style="background: white; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <span style="color: #10B981; font-weight: 900; font-size: 15px; margin-bottom: 6px;">Garantia de 7 Dias</span>
+                    <span style="color: #555; font-size: 13px; line-height: 1.4;">Satisfação total ou seu dinheiro de volta.</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 13 - COMO FUNCIONA -->
+    <section class="how-it-works section-padding bg-light">
+        <div class="container">
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">FAÇA SUA COMPRA</h3>
+                    <p class="step-desc">Escolha o kit e conclua o pagamento de forma segura.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">RECEBA O ACESSO</h3>
+                    <p class="step-desc">O material digital será enviado diretamente para o seu e-mail.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">COMECE A UTILIZAR</h3>
+                    <p class="step-desc">Tenha acesso imediato aos materiais e utilize-os na sua rotina.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14 - FAQ -->
+    <section class="faq section-padding">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        O que vem no kit?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>O kit reúne Matemática 4 Operações do 1º ao 5º ano, Unidades de Medida do 1º ao 5º ano, Mural da Tabuada, Uno das 4 Operações e Frações.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Os materiais são editáveis?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Os materiais de Matemática 4 Operações e Unidades de Medida são editáveis.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Como receberei o material?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>O conteúdo é digital e disponibilizado em PDF por e-mail.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Quando receberei?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>O envio é realizado imediatamente após a compra.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Por quanto tempo terei acesso?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>O acesso ao conteúdo é vitalício.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Quanto custa?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>A oferta atual é de R$27,00 em pagamento único.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        É um produto físico?
+                        <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Não. É um produto digital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 15 - CTA FINAL -->
+    <section class="final-cta section-padding bg-dark">
+        <div class="container text-center">
+            <h2 class="section-title text-light">Tenha todos os materiais em um único kit</h2>
+            <p class="final-cta-sub text-light">Pratique diferentes conteúdos de matemática com materiais digitais prontos para utilizar.</p>
+            
+            <a href="#oferta" class="cta-button final-cta-btn checkout-link mt-2" style="max-width: 400px; margin-left: auto; margin-right: auto;">QUERO GARANTIR MEU ACESSO</a>
+            
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <div class="secure-badge">
+                    🔒 COMPRA 100% SEGURA E PROTEGIDA
+                </div>
+            </div>
+            
+            <div class="final-price-info">
+                <span class="final-price">R$ 27,00</span>
+                <span class="final-payment">Pagamento único</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 16 - FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-brand">Desafio Matemático Kids</p>
+                <div class="footer-links">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Contato</a>
+                </div>
+                <p class="copyright">&copy; <span id="year"></span> Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Image Gallery -->
+    <div id="upsellModal" class="modal">
+        <div class="modal-content" style="background-color: #fff; border-radius: 8px; padding: 25px 15px; text-align: center; max-height: 85vh; overflow-y: auto; position: relative; width: 95%; max-width: 500px; margin: auto; box-sizing: border-box;">
+            <span class="close-modal" id="closeUpsell" style="top: 5px; right: 15px; color: #888; z-index: 10;">&times;</span>
+            <div class="upsell-card">
+                <h2 style="color: #22C55E; margin-bottom: 10px; font-size: 32px; font-family: 'Poppins', sans-serif; font-weight: 900;">ESPERE!</h2>
+                <h3 style="margin-bottom: 20px; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 700; color: #333;">Leve o PLANO PREMIUM completo por apenas <span style="color: #22C55E;">R$ 19,90</span></h3>
+                <p style="margin-bottom: 24px; font-size: 16px; color: #555;">Você está levando apenas 1 material. Por uma pequena diferença, você leva <strong>TODOS</strong> os nossos materiais!</p>
+                <img loading="lazy" src="img/hero-mockup.jpg" style="width: 100%; max-width: 350px; height: auto; margin: 0 auto 16px; display: block; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" alt="Mockup Premium">
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; text-align: left; font-size: 13px;">
+                    <div style="flex: 1 1 200px; background: #fff0f0; padding: 12px; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 4px 10px rgba(239,68,68,0.1);">
+                        <h4 style="color: #ef4444; margin-bottom: 12px; text-align: center; font-weight: 800; font-size: 14px;">NO BÁSICO</h4>
+                        <ul style="color: #666; list-style: none; padding: 0;">
+                            <li style="margin-bottom: 8px;"><span style="color: #e53935;">✖</span> Unidades de Medida</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #e53935;">✖</span> Mural da Tabuada</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #e53935;">✖</span> Uno das 4 Operações</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #e53935;">✖</span> Frações</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> 4 Operações</li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1 1 200px; background: #f0fdf4; padding: 12px; border-radius: 8px; border: 2px solid #22C55E; box-shadow: 0 4px 10px rgba(34,197,94,0.1);">
+                        <h4 style="color: #22C55E; margin-bottom: 12px; text-align: center; font-weight: 800; font-size: 14px;">NO PREMIUM</h4>
+                        <ul style="color: #333; list-style: none; padding: 0; font-weight: 600;">
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> Unidades de Medida</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> Mural da Tabuada</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> Uno das 4 Operações</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> Frações</li>
+                            <li style="margin-bottom: 8px;"><span style="color: #22C55E;">✔</span> 4 Operações</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="https://pay.kiwify.com.br/m4CnsG1" target="_blank" class="cta-button checkout-link pulse-btn" style="margin-bottom: 16px; background-color: #22C55E !important; color: white;">SIM, QUERO O PREMIUM POR R$ 19,90</a>
+                <a href="https://pay.kiwify.com.br/IyoztT6" target="_blank" class="upsell-decline" style="display: inline-block; text-align: center; color: #888; text-decoration: underline; font-size: 14px; font-weight: 500;">Não, obrigado. Quero apenas o básico.</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img loading="lazy" id="modalImage" src="" alt="Imagem ampliada" style="width: 100%; height: auto; max-height: 80vh; object-fit: contain; border-radius: 8px;">
+        </div>
+    </div>
+
+    <!-- Floating Notification -->
+    <div id="sales-notification" class="sales-notification">
+        <span class="close-notification" onclick="closeNotification()">&times;</span>
+        <div class="notification-content">
+            <div class="notification-img-wrapper">
+                <img loading="lazy" src="img/hero-mockup.jpg" alt="Produto">
+                <div class="verified-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                </div>
+            </div>
+            <div class="notification-text">
+                <div class="notification-header">
+                    <strong id="notif-name">Andre Z.</strong>
+                    <span class="verified-badge">✓ VERIFICADO</span>
+                </div>
+                <p>garantiu o Kit!</p>
+                <small id="notif-time">há 1 minuto</small>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
